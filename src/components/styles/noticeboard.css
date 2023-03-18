@@ -1,0 +1,43 @@
+.noticeboard {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 20em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100000000000;
+    background-color: #ffffff;
+    margin-top: 8em;
+    display: flex;
+
+}
+
+.noticeboard-title {
+    border-radius: inherit;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: black;
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    padding: 1.2em;
+    padding-top: 4em;
+    font-size: .9em;
+}
+
+
+.noticeboard-container {
+    padding: 1em;
+}
+
+.noticeboard .noticeboard-toggle-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1em 1em;
+    background: inherit;
+    color: inherit;
+    font-size: .9em;
+}

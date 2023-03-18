@@ -1,0 +1,57 @@
+
+.asset{
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FDFDFD;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+}
+
+
+.asset-title{
+    border-radius: inherit;
+    font-weight: lighter;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: black;
+    color: #ffffff;
+    padding: 1em;
+    
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.asset-description{
+    border-bottom: 1px solid #D1CECE;
+    padding: 1.5em 1em;
+}
+
+.asset-container{
+    padding: 1em 0;
+    
+}
+
+.asset .asset-toggle-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1.1em 2em;
+    background: inherit;
+    color: inherit;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

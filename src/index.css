@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    margin: 5.5em 0;
+    font-family: 'Poppins', sans-serif;
+    background: #FDFDFD;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+h4,h3,h1,p{
+    margin: 0;
+}
+
+h1{
+    color: #0029FF;
+    font-size: 1.625rem;
+    margin-bottom: 1em;
+}
+p{
+    font-size: .875rem;
+}
+
+
+/* Layout */
+.container{
+    max-width: 1075px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.project, .task .task-description{
+    max-width: 1140px;
+}
+.project{
+    margin-bottom: 2em;
+}
+
+
+.task-description{
+    
+    background: #E9ECEF;
+    padding: 1em;
+    border-radius: 5px;
+    
+    margin-bottom: 3em ;
+}
+
+.task-description p{
+    font-size: .825rem;
+    font-weight: 300;
+}
+
+
+.assets{
+    display: grid;
+    grid-template : auto / 1fr 1fr;
+    gap: 50px;
+}
+
+/* Buttons */
+button{
+    cursor: pointer;
+    border: none;
+}
+button:active{
+    background-color: gray;
+}
+
+.circle-btn{
+    border-radius: 50%;
+    color: white;
+    background-color: #3683F0;
+    height: 2em;
+    width: 2em;
+    font-size: .95rem;
+}
+
+
+.action-btn-container{
+    position: fixed;
+    bottom: 0;
+    right:  0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+.action-btn{
+    height: 4em;
+    width: 4em;
+    margin: .3em 2em;
+    background: #0029FF;
+    font-weight: 600;
+}
+
+
+@media (max-width:1400px) {
+    html{
+        font-size: 14px;
+    }
+    .container{
+        width: 70%;
+     }
+
+     .action-btn{
+        height: 3em;
+        width: 3em;
+        margin: .3em 1em;
+        font-size: 1rem;
+    }
+   
+   
+}
+
+@media (max-width:900px) {
+    .container{
+        width: 60%;
+     }
+    .assets{
+        grid-template : auto / 1fr;
+    }
+
+
+    .action-btn{
+        height: 3em;
+        width: 3em;
+        font-size: .7rem;
+    }
+    
+}
